@@ -1,0 +1,7 @@
+.outer-container {
+  width: 100%;
+  min-height: 1000px;
+
+  display: flex;
+  justify-content: center;
+}
