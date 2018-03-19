@@ -18,7 +18,7 @@ class SearchContainer extends React.Component {
     const organizationCards = organizations
       ? organizations.map(org =>
             <OrganizationCard
-              org={org} key={org.navn}
+              org={org} key={org.organisasjonsnummer}
               isSelected={org === this.state.selected}
               isFetching= {this.props.isFetching}
               onClick={() => this.setState({selected: org}) }
